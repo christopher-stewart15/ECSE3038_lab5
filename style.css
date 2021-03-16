@@ -1,0 +1,22 @@
+body {
+  font-family: Helvetica, Arial, Sans-Serif;
+}
+div {
+  /* border: 1px solid black; */
+  margin: 5px;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.tank-card {
+  width: 300px;
+  height: 450px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  margin: 30px;
+}
+
